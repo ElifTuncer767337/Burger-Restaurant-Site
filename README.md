@@ -1,4 +1,4 @@
-HTML and CSS Prjects: Burger-Restaurant-Site
+# BURGER RESTAURANT SITE
 
 This project is a fully responsive burger restaurant website developed using HTML and CSS.
 
