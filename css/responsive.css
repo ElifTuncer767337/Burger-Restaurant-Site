@@ -1,0 +1,240 @@
+/* Telefonlar (max-width: 576px) */
+@media screen and (max-width: 576px) {
+
+    
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        height: auto;
+    }
+
+    .logo {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
+
+    
+    .home {
+        font-size: 1.5em;
+        height: calc(100vh - 150px);
+        padding: 0 10px;
+    }
+
+    /* Menu */
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .burger-item {
+        width: 90%;
+        margin-bottom: 25px;
+        
+    }
+
+    /* About */
+    .about-us {
+        padding: 30px 15px;
+    }
+
+    .about-us h1 {
+        font-size: 2em;
+    }
+
+    .about-text p {
+        font-size: 0.95em;
+    }
+
+    .values {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Gallery */
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .image-box {
+        height: 200px;
+    }
+
+    /* Reviews */
+    .reviews-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .review-box {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    
+
+    /* Footer */
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-box h2 {
+        font-size: 1.3em;
+    }
+
+    .footer-box p {
+        font-size: 1.1em;
+    }
+}
+
+/* Tabletler (577px - 992px) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+        height: auto;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+        font-size: 2em;
+    }
+
+    .navbar ul {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .home {
+        font-size: 2.5em;
+        height: calc(100vh - 120px);
+    }
+
+    .card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .burger-item {
+        width: 45%;
+        margin: 10px;
+    }
+
+    .about-us {
+        padding: 40px 20px;
+    }
+
+    .about-us h1 {
+        font-size: 2.2em;
+    }
+
+    .about-text p {
+        font-size: 1em;
+    }
+
+    .values {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .reviews-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .review-box {
+        width: 90%;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .image-box {
+        height: 220px;
+    }
+}
+
+/* Laptoplar (993px ve üstü) */
+@media screen and (min-width: 993px) {
+
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 25px 50px;
+    }
+
+    .navbar ul {
+        justify-content: flex-end;
+    }
+
+    .home {
+        font-size: 3em;
+        height: calc(100vh - 80px);
+    }
+
+    .card {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .burger-item {
+        width: 300px;
+        margin: 20px;
+    }
+
+    .about-us {
+        padding: 50px 40px;
+    }
+
+    .about-us h1 {
+        font-size: 2.5em;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+    }
+
+    .values {
+        flex-direction: row;
+    }
+
+    .reviews-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .image-box {
+        height: 250px;
+    }
+
+    .footer-container {
+        flex-direction: row;
+        gap: 100px;
+    }
+}
